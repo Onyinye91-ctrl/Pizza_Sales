@@ -48,4 +48,3 @@ To import the dataset (csv file) into MySQL. I used the load data infile method 
 * Total pizza sold by pizza category
 * Top 5 best sellers by revenue, total quantity and total order
 * Bottom 5 best sellers by revenue, total quantity and total order
-* 
