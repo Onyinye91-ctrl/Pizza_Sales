@@ -32,7 +32,28 @@ I created 6 (six) new columns
 
 # Data Import in MySQL
 To import the dataset (csv file) into MySQL. I used the load data infile method to import my data into MySQL, this is because the dataset was taking centuries to import via the import wizard in MySQL. I used the following code below
-![load data infile](https://github.com/Onyinye91-ctrl/Pizza_Sales/blob/main/bench.PNG) and this to create the database and table in MySQL workbench
+> `load data infile ‘data path’`
+
+> `into table pizza_sales` # the table name of the table created in MySQL
+
+> `fields terminated by ‘,’`
+
+> `enclosed by ‘”’` # enclosed double quote (“)
+
+> `escaped by ‘\\’`
+
+> `lines terminated by ‘\r\n’`
+
+> `ignore 1 lines;`
+
+![load data infile](https://github.com/Onyinye91-ctrl/Pizza_Sales/blob/main/bench.PNG) 
+
+I created a database and table inn the workbench using the code below
+
+`CREATE TABLE pizza_sales (pizza_id VARCHAR(10), order_id VARCHAR(10), pizza_name_id VARCHAR(100), quantity INT,
+order_date DATE, order_time TIME, total_price DECIMAL(5,2), pizza_size VARCHAR(10),
+pizza_category VARCHAR(100), pizza_ingredients VARCHAR(100), pizza_name VARCHAR(200));`
+
 ![Table](https://github.com/Onyinye91-ctrl/Pizza_Sales/blob/main/sql.jpeg)
 
 
@@ -48,3 +69,5 @@ To import the dataset (csv file) into MySQL. I used the load data infile method 
 * Total pizza sold by pizza category
 * Top 5 best sellers by revenue, total quantity and total order
 * Bottom 5 best sellers by revenue, total quantity and total order
+
+The link to the Dashboard can be found [Here](https://app.powerbi.com/view?r=eyJrIjoiYjVkZjJjYTctMDQ4Yy00YjM1LTg2MWEtOTc4YmZlOWZlNmJmIiwidCI6IjlhNTliMTE1LTA4MzQtNGQ5Ni1hZjA3LTRkZjE0MzRjMzVmOSJ9)
