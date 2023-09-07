@@ -32,8 +32,8 @@ I created 6 (six) new columns
 
 # Data Import in MySQL
 To import the dataset (csv file) into MySQL. I used the load data infile method to import my data into MySQL, this is because the dataset was taking centuries to import via the import wizard in MySQL. I used the following code below
-![load data infile](sql.jpeg) and this to create the database and table in MySQL workbench
-![Table](bench.png)
+![load data infile](https://github.com/Onyinye91-ctrl/Pizza_Sales/blob/main/bench.PNG) and this to create the database and table in MySQL workbench
+![Table](https://github.com/Onyinye91-ctrl/Pizza_Sales/blob/main/sql.jpeg)
 
 
 # Business Insights (Problem Statement)
