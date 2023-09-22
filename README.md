@@ -44,17 +44,18 @@ To import the dataset (csv file) into MySQL. I used the load data infile method 
 
 > `lines terminated by ‘\r\n’`
 
-> `ignore 1 lines;`
+> `ignore 1 lines;
 
-![load data infile](https://github.com/Onyinye91-ctrl/Pizza_Sales/blob/main/bench.PNG) 
+![Table](https://github.com/Onyinye91-ctrl/Pizza_Sales/blob/main/sql.jpeg)`
 
 I created a database and table inn the workbench using the code below
 
 `CREATE TABLE pizza_sales (pizza_id VARCHAR(10), order_id VARCHAR(10), pizza_name_id VARCHAR(100), quantity INT,
 order_date DATE, order_time TIME, total_price DECIMAL(5,2), pizza_size VARCHAR(10),
-pizza_category VARCHAR(100), pizza_ingredients VARCHAR(100), pizza_name VARCHAR(200));`
+pizza_category VARCHAR(100), pizza_ingredients VARCHAR(100), pizza_name VARCHAR(200));
 
-![Table](https://github.com/Onyinye91-ctrl/Pizza_Sales/blob/main/sql.jpeg)
+![load data infile](https://github.com/Onyinye91-ctrl/Pizza_Sales/blob/main/bench.PNG) 
+
 
 
 ### Business Insights (Problem Statement)
