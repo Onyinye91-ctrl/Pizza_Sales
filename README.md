@@ -72,3 +72,6 @@ pizza_category VARCHAR(100), pizza_ingredients VARCHAR(100), pizza_name VARCHAR(
 * Bottom 5 best sellers by revenue, total quantity and total order
 
 The link to the Dashboard can be found [Here](https://app.powerbi.com/view?r=eyJrIjoiYjVkZjJjYTctMDQ4Yy00YjM1LTg2MWEtOTc4YmZlOWZlNmJmIiwidCI6IjlhNTliMTE1LTA4MzQtNGQ5Ni1hZjA3LTRkZjE0MzRjMzVmOSJ9)
+
+
+![Pizza Dashborad](https://github.com/Onyinye91-ctrl/Pizza_Sales/blob/main/pizza.PNG)
